@@ -1,0 +1,70 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 9 jun. 2022, 14:13:56
+    Author     : Usuario
+*/
+@import url('https://fonts.googleapis.com/css2?family=Nuosu+SIL&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nuosu SIL', serif;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../images/PC-mainboard-electronic-components_3840x2160.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.navbar{
+    height: 15vh;
+    widows: 100%;
+    margin: auto;
+    display:flex;
+    align-items: center;  
+}
+.logo{
+    widows: 160px;
+    cursor: pointer;
+    width: 150px;
+    height: 100px;
+}
+.fixed{
+ position:fixed;
+ width: 1370px;
+ height: 100px;
+ top:0px;
+ left:0px;
+ background-image: url(../images/Paradise.jpg);
+}
+nav{
+    flex: 1;
+    padding-left: 60px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: darkorchid;
+}
+.content h1{
+   font-size:60px;
+    font-weight:bold;
+    margin-top:24px;
+    margin-bottom:15px;
+    color:darkorchid;
+}
+
