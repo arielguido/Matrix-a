@@ -63,8 +63,13 @@ nav ul li a{
 .content h1{
    font-size:60px;
     font-weight:bold;
-    margin-top:24px;
+    margin-top:24;
     margin-bottom:15px;
     color:darkorchid;
 }
-
+.miImagen{
+    height: 50%;
+    position: absolute;
+    bottom: 50px;
+    right: 160px;
+}
