@@ -17,7 +17,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
 body{
     height: 100vh;
     width: 100%;
-    background-image: url(../images/PC-mainboard-electronic-components_3840x2160.jpg);
+    background-image: url(../images/4e3dc23cab082329b06c4a793ce462a1.jpg);
     background-position: center;
     background-size: cover;
     padding-left: 5%;
@@ -31,7 +31,7 @@ body{
     widows: 100%;
     margin: auto;
     display:flex;
-    align-items: center;  
+    align-items: center;
 }
 .logo{
     widows: 160px;
@@ -40,12 +40,12 @@ body{
     height: 100px;
 }
 .fixed{
- position:fixed;
- width: 1370px;
- height: 100px;
- top:0px;
- left:0px;
- background-image: url(../images/Paradise.jpg);
+    position:fixed;
+    width: 1370px;
+    height: 100px;
+    top:0px;
+    left:0px;
+    background: linear-gradient(120deg,#530909 ,#830707 );
 }
 nav{
     flex: 1;
@@ -58,18 +58,38 @@ nav ul li{
 }
 nav ul li a{
     text-decoration: none;
-    color: darkorchid;
+    color: white;
 }
 .content h1{
-   font-size:60px;
+    font-size:60px;
     font-weight:bold;
     margin-top:24;
     margin-bottom:15px;
-    color:darkorchid;
+    color:white;
 }
 .miImagen{
     height: 50%;
     position: absolute;
     bottom: 50px;
     right: 160px;
+}
+.absolute{
+    position:absolute;
+    border: 3px solid silver;
+    top:150px;
+    left:155px;
+    width: 110px;
+    height: 25px;
+    color: white;
+}
+.absolute2{
+    position:absolute;
+    top:200px;
+    left:270px;
+}
+.logo2{
+    widows: 160px;
+    cursor: pointer;
+    width: 400px;
+    height: 300px;
 }
